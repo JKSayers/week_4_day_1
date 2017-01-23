@@ -8,6 +8,19 @@ namespace Week4Day1
 {
     class Cat : Animal
     {
-        private string stripes;
+
+        //fields
+        private string breed;
+        private string furLength;
+
+        private bool declawed;
+
+        //constructor
+        public Cat(string breed,string furLength, bool declawed):base(4,6,12)
+        {
+            this.breed = breed;
+            this.furLength = furLength;
+            this.declawed = declawed;
+        }
     }
 }
