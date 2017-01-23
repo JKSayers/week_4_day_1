@@ -10,6 +10,9 @@ namespace Week4Day1
     {
         static void Main(string[] args)
         {
+            Animal dog = new Animal();
+
+            dog.PrintAnimalInfo();
         }
     }
 }
