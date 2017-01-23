@@ -25,6 +25,11 @@ namespace Week4Day1
             isGoodToEat = false;
         }
 
+        public void Speak()
+        {
+            Console.WriteLine("MEEEEOOOWWWW!");
+        }
+
 
     }
 }

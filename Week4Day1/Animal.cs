@@ -52,12 +52,18 @@ namespace Week4Day1
             this.color = color;
         }
 
+        //methods
         public void PrintAnimalInfo()
         {
-            Console.WriteLine("This animal has " + legs + " legs.");
+            Console.WriteLine("\nThis animal has " + legs + " legs.");
             Console.WriteLine("It's size is " + size);
             Console.WriteLine("It weighs " + weight + "lbs");
-            Console.WriteLine("And it's color is " + color + "\n");
+            Console.WriteLine("And it's color is " + color);
+        }
+
+        public void WhoAmI()
+        {
+            Console.WriteLine("I am an animal!");
         }
     }
 }
