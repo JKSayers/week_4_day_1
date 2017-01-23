@@ -13,10 +13,13 @@ namespace Week4Day1
             Animal animal1 = new Animal(2,"black as night on a moonless night.");
             Animal animal2 = new Animal(6,"is like rust on an abandoned ferris wheel.");
 
-            Cat cat1 = new Cat("Grumpy", "Short", false);
+            Cat cat1 = new Cat("Grumpy", "Short", false, "grey");
             animal1.PrintAnimalInfo();
             animal2.PrintAnimalInfo();
             cat1.PrintAnimalInfo();
+
+            Fish fish1 = new Fish(5, true, true, "salt");
+            fish1.PrintAnimalInfo();
 
             Console.ReadKey();
 

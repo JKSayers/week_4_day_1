@@ -15,10 +15,16 @@ namespace Week4Day1
         private int size;
         private int weight;
 
-        private string color;
+        protected string color;
 
-        private bool isGoodToEat;
+        protected bool isGoodToEat;
 
+
+        public int Legs
+        {
+            get { return this.legs; }
+            set { this.legs = value; }
+        }
         public Animal()
         {
 

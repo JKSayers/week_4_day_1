@@ -16,11 +16,15 @@ namespace Week4Day1
         private bool declawed;
 
         //constructor
-        public Cat(string breed,string furLength, bool declawed):base(4,6,12)
+        public Cat(string breed,string furLength, bool declawed, string color):base(4,6,12,color)
         {
             this.breed = breed;
             this.furLength = furLength;
             this.declawed = declawed;
+            this.color = color;
+            isGoodToEat = false;
         }
+
+
     }
 }
