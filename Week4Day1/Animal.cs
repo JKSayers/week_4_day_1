@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Week4Day1
 {
 
-    class Animal
+    public class Animal
     {
 
         //fields
@@ -19,6 +19,10 @@ namespace Week4Day1
 
         private bool isGoodToEat;
 
+        public Animal()
+        {
+
+        }
         //constructors
         public Animal(int legs, string color)
         {
@@ -27,7 +31,7 @@ namespace Week4Day1
         }
 
 
-        public Animal()
+        public Animal(int legs, int size, int weight)
         {
             this.legs = legs;
             this.size = size;
@@ -44,10 +48,10 @@ namespace Week4Day1
 
         public void PrintAnimalInfo()
         {
-            Console.WriteLine("This animal has #" + legs + " of legs.");
+            Console.WriteLine("This animal has " + legs + " legs.");
             Console.WriteLine("It's size is " + size);
-            Console.WriteLine("It weighs " + weight);
-            Console.WriteLine("And it's color is " + color);
+            Console.WriteLine("It weighs " + weight + "lbs");
+            Console.WriteLine("And it's color is " + color + "\n");
         }
     }
 }

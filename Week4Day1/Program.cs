@@ -10,9 +10,16 @@ namespace Week4Day1
     {
         static void Main(string[] args)
         {
-            Animal dog = new Animal();
+            Animal animal1 = new Animal(2,"black as night on a moonless night.");
+            Animal animal2 = new Animal(6,"is like rust on an abandoned ferris wheel.");
+            animal1.PrintAnimalInfo();
+            animal2.PrintAnimalInfo();
 
-            dog.PrintAnimalInfo();
+
+            Console.ReadKey();
+
         }
+
     }
+
 }
